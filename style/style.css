@@ -1,0 +1,8 @@
+body{
+    background: darkgrey;
+}
+#game{
+    width:1280px;
+    height:768px;
+    margin-left: 10px; 
+}

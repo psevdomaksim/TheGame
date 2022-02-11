@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+ <meta name="viewport" content="width=device-width,user-scalable=no"/>
+ <title></title>
+</head>
+<body>
+<script type="text/javascript" src="pointjs.js"></script>
+<script type="text/javascript" src="platformer.js"></script>
+
+<script type="text/javascript">
+
+var js = new PointJS('2d',1000, 550, {background : 'white'});
+
+var game = js.game;
+var tiles = js.tiles;
+var v = js.vector.v2d;
+var point  = js.vector.point;
+var log =js.system.log;
+var key = js.keyControl;
+key.initKeyControl();
+
+
+
+var game.newAnimationObject({ // право
+ animation : tiles.newImage('').getAnimation(0, 0, 0, 0, 0), x: 0, y:0, w: 0, h : 0, delay :0, visible: true
+});
+
+
+
+
+game.newLoop('game', function () {
+game.clear();
+  
+  
+})
+
+
+  
+game.setLoop('game');
+game.start();
+
+
+</script>
+</body>
+</html>

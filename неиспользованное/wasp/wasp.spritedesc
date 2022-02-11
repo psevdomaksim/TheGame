@@ -1,0 +1,511 @@
+sprite_sheet "wasp" 1024 x 512 margin 1
+
+flying "wasp-flying.xcf.bz2"
+shooting "wasp-shooting.xcf.bz2"
+sting "sting.xcf"
+
+"flying 1" image_size * 0.5 with flying
+  "buckle 1"
+  "back buckle"
+  "paws 1"
+  "abdomen 1"
+  "eye 1"
+  "base"
+
+  "sash 1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"flying 2" image_size * 0.5 with flying
+  "buckle 1"
+  "back buckle"
+  "paws 1"
+  "abdomen 1"
+  "eye 1"
+  "base"
+
+  "sash 2"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"flying 3" image_size * 0.5 with flying
+  "buckle 1"
+  "back buckle"
+  "paws 1"
+  "abdomen 1"
+  "eye 1"
+  "base"
+
+  "sash 3"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"flying 4" image_size * 0.5 with flying
+  "buckle 1"
+  "back buckle"
+  "paws 1"
+  "abdomen 1"
+  "eye 1"
+  "base"
+
+  "sash 1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+/*----------------------------------------------------------------------------*/
+/* dying */
+"dying 1" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "paws 3.1"
+  "abdomen 3.1"
+  "eyelid 1"
+  "base"
+
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"dying 2" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "paws 3.1"
+  "abdomen 3.1"
+  "eyelid 1"
+  "base"
+
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"dying 3" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "paws 3.1"
+  "abdomen 3.1"
+  "eyelid 1"
+  "base"
+
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"dying 4" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "paws 3.1"
+  "abdomen 3.1"
+  "eyelid 1"
+  "base"
+
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+/*----------------------------------------------------------------------------*/
+/* shooting */
+"shooting 1 1" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.1"
+  "paws 1.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 1 2" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.2"
+  "paws 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 1 3" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.3"
+  "paws 1.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 1 4" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.4"
+  "paws 1.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+"shooting 1 5" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.4"
+  "paws 1.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 1 6" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.3"
+  "eyelid 1"
+  "paws 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 1 7" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.1"
+  "eyelid 2"
+  "paws 1.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 1 8" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 1.1"
+  "eyelid 1"
+  "paws 1.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+/* 2 */
+"shooting 2 1" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.1"
+  "paws 2.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 2 2" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.2"
+  "paws 2.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 2 3" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.3"
+  "paws 2.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 2 4" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.4"
+  "paws 2.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+"shooting 2 5" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.4"
+  "paws 2.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 2 6" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.3"
+  "eyelid 1"
+  "paws 2.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 2 7" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.1"
+  "eyelid 2"
+  "paws 2.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 2 8" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 2.1"
+  "eyelid 1"
+  "paws 2.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+/* 3 */
+"shooting 3 1" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.1"
+  "paws 3.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 3 2" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.2"
+  "paws 3.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 3 3" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.3"
+  "paws 3.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 3 4" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.4"
+  "paws 3.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+"shooting 3 5" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.4"
+  "paws 3.1"
+  "left wing 1.2"
+  "right wing 1.2"
+  "left wing 2.1"
+  "right wing 2.1"
+;
+
+"shooting 3 6" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.3"
+  "eyelid 1"
+  "paws 3.1"
+  "left wing 2.2"
+  "right wing 2.2"
+  "left wing 3.1"
+  "right wing 3.1"
+;
+
+"shooting 3 7" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.1"
+  "eyelid 2"
+  "paws 3.1"
+  "left wing 2.1"
+  "right wing 2.1"
+  "left wing 3.2"
+  "right wing 3.2"
+;
+
+"shooting 3 8" image_size * 0.5 with shooting
+  "buckle"
+  "sash"
+  "paws"
+  "base"
+
+  "abdomen 3.1"
+  "eyelid 1"
+  "paws 3.1"
+  "left wing 1.1"
+  "right wing 1.1"
+  "left wing 2.2"
+  "right wing 2.2"
+;
+
+/*----------------------------------------------------------------------------*/
+/* sting */
+"sting" image_size * 0.5 with sting
+  "light"
+  "black"
+;
+
+"sting 1" image_size * 0.5 with sting
+  "end 1"
+;
+
+"sting 2" image_size * 0.5 with sting
+  "end 2"
+;
+
+"sting 3" image_size * 0.5 with sting
+  "end 3"
+;
+
+"sting 4" image_size * 0.5 with sting
+  "end 4"
+;
+
+"sting 5" image_size * 0.5 with sting
+  "end 5"
+;
+
+"sting 6" image_size * 0.5 with sting
+  "end 6"
+;
+
+"sting 7" image_size * 0.5 with sting
+  "end 7"
+;
